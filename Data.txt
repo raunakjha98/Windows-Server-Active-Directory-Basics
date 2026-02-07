@@ -1,0 +1,72 @@
+##  Organizational Units (OU)
+- HR
+- IT
+- Sales
+- Computers
+- ServiceAccounts
+
+
+
+##  Users (Sample)
+| Username | Full Name | Department |
+|----------|-----------|------------|
+| hr.user1 | Neha Sharma | HR |
+| it.user1 | Amit Verma | IT |
+| sales.user1 | Rahul Singh | Sales |
+| it.admin | IT Admin | IT |
+
+
+
+##  Security Groups
+- HR_Users
+- IT_Users
+- Sales_Users
+- IT_Admins
+
+
+
+##  Key Configurations
+- Installed AD DS and promoted server to Domain Controller
+- Configured DNS for domain name resolution
+- Created OUs, users, and security groups
+- Joined client machines to the domain
+- Applied Group Policy Objects (GPOs):
+  - Password Policy
+  - Disable Control Panel (HR)
+  - Drive Mapping (Sales)
+  - Screen Lock Timeout
+
+
+##  Group Policy Objects (GPO)
+- HR_Desktop_Restrictions
+- IT_Admin_Policies
+- Sales_Drive_Mapping
+- Domain_Password_Policy
+
+
+
+##  Testing & Validation
+- Domain login tested with multiple users
+- gpresult /r used to verify GPO application
+- Access control tested using shared folders
+- Event Viewer checked for authentication logs
+
+
+##  Screenshots
+See /screenshots folder for step-by-step proof of configuration.
+
+
+
+##  Documentation
+See /documentation folder for full project report and network diagram.
+
+---
+
+##  Skills Demonstrated
+- Windows Server Administration
+- Active Directory Management
+- DNS Configuration
+- Group Policy Management
+- User & Group Administration
+- Domain Environment Setup
+- IT Infrastructure Fundamentals

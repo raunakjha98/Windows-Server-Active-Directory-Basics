@@ -1,0 +1,12 @@
+[ Internet ]
+      |
+[ Router ]
+      |
+[ Switch ]
+      |
+-------------------------
+|                       |
+[ DC01 ]            [ CL01 ]
+Windows Server       Windows 10/11
+AD + DNS              Domain Client
+192.168.10.10         DHCP

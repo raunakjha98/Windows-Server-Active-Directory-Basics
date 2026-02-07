@@ -1,0 +1,5 @@
+Domain Name: company.local
+Domain Controller: DC01
+IP Address: 192.168.10.10
+DNS Server: 192.168.10.10
+Forest Functional Level: Windows Server 2016+
